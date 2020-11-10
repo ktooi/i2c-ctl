@@ -1,6 +1,7 @@
 #ifndef I2CCTL_H
 #define I2CCTL_H
 #include <fcntl.h>
+#include <sys/types.h>
 
 struct i2c_slave;
 typedef struct i2c_slave I2CSlave;
